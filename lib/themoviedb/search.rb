@@ -11,8 +11,8 @@ module Tmdb
       self
     end
     
-    def adult(adult)
-      @params[:adult] = adult.to_s
+    def include_adult(include_adult)
+      @params[:include_adult] = include_adult.to_s
       self
     end
 
