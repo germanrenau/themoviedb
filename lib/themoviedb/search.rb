@@ -10,6 +10,11 @@ module Tmdb
       @params[:query] = query.to_s
       self
     end
+    
+    def adult(adult)
+      @params[:adult] = adult.to_s
+      self
+    end
 
     def year(year)
       @params[:year] = year.to_s
